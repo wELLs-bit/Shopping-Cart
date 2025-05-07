@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+  <div id="cart">
+    
+    <div class="cart-item">
+      <span class="item-name">T-shirt</span>
+      <span class="item-price">25.00</span>
+      <div class="quantity-controls">
+        <button class="btn-minus">-</button>
+        <span class="item-qty">1</span>
+        <button class="btn-plus">+</button>
+      </div>
+      <button class="btn-like">♥</button>
+      <button class="btn-delete">🗑</button>
+    </div>
+
+    <div class="cart-item">
+      <span class="item-name">Sneakers</span>
+      <span class="item-price">60.00</span>
+      <div class="quantity-controls">
+        <button class="btn-minus">-</button>
+        <span class="item-qty">2</span>
+        <button class="btn-plus">+</button>
+      </div>
+      <button class="btn-like">♥</button>
+      <button class="btn-delete">🗑</button>
+    </div>
+
+  </div>
+
+  <h2>Total: <span id="total-price">$0.00</span></h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
